@@ -1,0 +1,28 @@
+version: '2'
+ 
+services:
+
+  postgres:
+    build:
+      context:  ./postgres
+      dockerfile: Dockerfile
+    expose:
+      - "5432"
+
+  app:
+    build:
+      context:  ./app
+      dockerfile: Dockerfile
+    expose:
+      - "5000"
+    links:
+      - postgres
+ 
+  proxy:
+    build:
+      context:  ./nginx
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    links:
+      - app

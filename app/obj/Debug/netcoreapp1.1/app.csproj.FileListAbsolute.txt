@@ -1,0 +1,8 @@
+/home/alex/Documents/example/app/bin/Debug/netcoreapp1.1/app.deps.json
+/home/alex/Documents/example/app/bin/Debug/netcoreapp1.1/app.runtimeconfig.json
+/home/alex/Documents/example/app/bin/Debug/netcoreapp1.1/app.runtimeconfig.dev.json
+/home/alex/Documents/example/app/bin/Debug/netcoreapp1.1/app.dll
+/home/alex/Documents/example/app/bin/Debug/netcoreapp1.1/app.pdb
+/home/alex/Documents/example/app/obj/Debug/netcoreapp1.1/app.AssemblyInfo.cs
+/home/alex/Documents/example/app/obj/Debug/netcoreapp1.1/app.dll
+/home/alex/Documents/example/app/obj/Debug/netcoreapp1.1/app.pdb
