@@ -19,9 +19,6 @@ namespace app
                 .UseStartup<Startup>()
                 .Build();
 
-
-                
-
             host.Run();
         }
     }
