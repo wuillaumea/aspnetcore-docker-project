@@ -4,14 +4,26 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
+using Core.Respositories;
+using Core.Models.Database;
+
 namespace app.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly UserRepository _userRepository;
+        public HomeController(DatabaseContext databaseContext)
+        {
+            _userRepository = new UserRepository(databaseContext);
+        }
+
+        [HttpGet("/")]
         public IActionResult Index()
         {
-            var potato = "potato";
-            return View();
+            var email = "testtt@user.com";
+            var user = _userRepository.GetByEmail(email);
+            
+            return View(user);
         }
 
         public IActionResult About()

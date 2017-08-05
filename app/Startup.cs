@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
+using Core.Models.Database;
 
 namespace app
 {
@@ -29,10 +30,14 @@ namespace app
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddDbContext<WebAPIDataContext>(options => {
-                options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=myDataBase;User Id=myUsername;Password=myPassword;", 
-                b => b.MigrationsAssembly("WebAPISample"));
-            });
+            // services.AddDbContext<DbContext>(options => {
+            //     options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=docker;User Id=docker;Password=docker;", 
+            //     b => b.MigrationsAssembly("app"));
+            // });
+
+            var connectionString =  Configuration["DbContextSettings:ConnectionString"];
+            services.AddDbContext<DatabaseContext>(opts =>  opts.UseNpgsql(connectionString));
+
             services.AddMvc();
         }
 
