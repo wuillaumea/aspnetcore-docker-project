@@ -6,3 +6,14 @@
 /home/alex/Documents/example/app/obj/Debug/netcoreapp1.1/app.AssemblyInfo.cs
 /home/alex/Documents/example/app/obj/Debug/netcoreapp1.1/app.dll
 /home/alex/Documents/example/app/obj/Debug/netcoreapp1.1/app.pdb
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\bin\Debug\netcoreapp1.1\app.deps.json
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\bin\Debug\netcoreapp1.1\app.runtimeconfig.json
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\bin\Debug\netcoreapp1.1\app.runtimeconfig.dev.json
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\bin\Debug\netcoreapp1.1\app.dll
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\bin\Debug\netcoreapp1.1\app.pdb
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\obj\Debug\netcoreapp1.1\app.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\obj\Debug\netcoreapp1.1\app.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\obj\Debug\netcoreapp1.1\app.AssemblyInfo.cs
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\obj\Debug\netcoreapp1.1\app.dll
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\obj\Debug\netcoreapp1.1\app.pdb
+C:\Users\Alex\Documents\dotnetcore project\aspnetcore-docker-project\app\obj\Debug\netcoreapp1.1\app.csprojResolveAssemblyReference.cache

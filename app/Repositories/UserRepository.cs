@@ -14,6 +14,7 @@ namespace Core.Respositories
 
         public User GetByEmail(string email)
         {
+            return new User();
             return _databaseContext.Users.SingleOrDefault(x => x.Email == email);
         }
 
