@@ -16,7 +16,6 @@ namespace app
     {
         public Startup(IHostingEnvironment env)
         {
-            asdf
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
