@@ -8664,9 +8664,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Users\\Alex\\Documents\\dotnetcore project\\aspnetcore-docker-project\\app\\app.csproj",
       "projectName": "app",
@@ -8702,28 +8699,12 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Npgsql.EntityFrameworkCore.PostgreSQL": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.AspNetCore": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Npgsql": {
-            "target": "Package",
-            "version": "3.2.5"
-          },
-          "Microsoft.Extensions.Logging.Debug": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
-          "Microsoft.VisualStudio.Web.BrowserLink": {
+          "Microsoft.AspNetCore": {
             "target": "Package",
             "version": "2.0.0"
           },
@@ -8732,6 +8713,22 @@
             "version": "2.0.0"
           },
           "Microsoft.AspNetCore.StaticFiles": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.VisualStudio.Web.BrowserLink": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Npgsql": {
+            "target": "Package",
+            "version": "3.2.5"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "2.0.0"
           }
