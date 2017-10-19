@@ -6,3 +6,5 @@ script:
  - cd app
  - dotnet restore
  - dotnet publish
+notifications:
+  email: false
