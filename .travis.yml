@@ -5,3 +5,4 @@ dist: trusty
 script:
  - cd app
  - dotnet restore
+ - dotnet publish
