@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\Controllers",
+    "\\app\\Models",
+    "\\app\\Models\\Database",
+    "\\app\\Repositories",
+    "\\app\\Views",
+    "\\app\\Views\\Home",
+    "\\nginx",
+    "\\postgres"
+  ],
+  "SelectedNode": "\\app\\Repositories\\UserRepository.cs",
+  "PreviewInSolutionExplorer": false
+}
